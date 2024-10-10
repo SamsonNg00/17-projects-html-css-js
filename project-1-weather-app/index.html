@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - ssphere.tech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-section">
+          <input type="text" id="city-input" placeholder="Enter city name">
+          <button id="get-weather-btn">Get Weather</button>
+          <button id="unit-toggle">Switch to Fahrenheit</button>
+          <button id="get-location-btn">Get Weather for My Location</button>
+        </div>
+        <p id="loading" style="display: none;">Loading weather data...</p>
+        <div class="weather-result">
+          <h2 id="weather-city"></h2>
+          <p id="weather-temp"></p>
+          <p id="weather-description"></p>
+          <img id="weather-icon" alt="Weather Icon">
+        </div>
+      </div>
+
+      <script src="app.js"></script>
+</body>
+</html>
